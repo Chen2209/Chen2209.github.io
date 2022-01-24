@@ -341,11 +341,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '你行不行？';
+    if (score <= 99) return '就这';
+    if (score <= 149) return '握日达人是你了';
+    if (score <= 199) return '握日！';
+    return '日？';
 }
 
 function toStr(obj) {
